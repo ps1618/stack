@@ -1,0 +1,25 @@
+{
+  "env": {
+    "jest": true
+  },
+
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
+
+  "plugins": [
+    "flowtype",
+    "compat"
+  ],
+
+  "rules": {
+    "semi": [2, "never"],
+    "no-unexpected-multiline": 2,
+    "space-before-function-paren": [2, "always"],
+    "quotes": ["error", "double"],
+    "no-spaced-func": "off",
+    "func-call-spacing": ["error", "always"],
+    "compat/compat": 2
+  }
+}
