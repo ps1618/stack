@@ -1,5 +1,6 @@
 {
   "env": {
+    "browser": true,
     "jest": true
   },
 
@@ -19,6 +20,7 @@
     "space-before-function-paren": [2, "always"],
     "quotes": ["error", "double"],
     "no-spaced-func": "off",
+    "comma-dangle": ["error", "never"],
     "func-call-spacing": ["error", "always"],
     "compat/compat": 2
   }
